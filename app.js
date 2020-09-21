@@ -1,4 +1,4 @@
-var noble = require("./noble");
+var noble = require("/noble");
 var counter = 0;
 
 noble.on('stateChange', function(state) {
