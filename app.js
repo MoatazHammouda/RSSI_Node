@@ -13,7 +13,7 @@ noble.on('discover', function(peripheral) {
 	//console.log(peripheral.rssi + ':' + peripheral.advertisement.localName)
 	if (peripheral.advertisement.localName === "MetaWear"){
 	console.log('Name: '+ peripheral.address); console.log('RSSI:' + peripheral.rssi);
-	count = count + 1;
-	if (count==2){
+	counter = counter + 1;
+	if (counter==2){
 	process.exit(10);}}
 });
